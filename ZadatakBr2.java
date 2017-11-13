@@ -7,8 +7,7 @@ public class ZadatakBr2 {
 			System.out.println("Unesite neki broj: ");
 			int unosKorisnika = unos.nextInt();
 			
-			
-			 for (int i = 1; i <= unosKorisnika; i++) {
+			for (int i = 1; i <= unosKorisnika; i++) {
 
 		            if (unosKorisnika % i == 0)
 		                System.out.print(i + " ");
